@@ -17,7 +17,7 @@ body{
   top: 0;
   float: left;
   background-color: aliceblue;
-  background-image: url('https://www.pngmart.com/files/22/iPhone-14-Pro-Max-PNG.png');
+  background-image: url("https://www.pngmart.com/files/22/iPhone-14-Pro-Max-PNG.png");
   background-size: cover;
   text-align: center;
 }
