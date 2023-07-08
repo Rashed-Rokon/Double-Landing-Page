@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.split{
+  width: 50%;
+  height: 100%;
+}
+
+.split.left{
+  position: absolute;
+  left: 0;
+  top: 0;
+  float: left;
+  background-color: aliceblue;
+  background-image: url('https://cf-images.dustin.eu/cdn-cgi/image/format=auto,quality=75,width=828,,fit=contain/image/d20000126862/apple-iphone-14-pro-128gb-t%C3%A4htimusta.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+.split.right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: right;
+  background-color: pink;
+  background-image: url("https://www.gigantti.fi/image/dv_web_D1800010021349741/575801/samsung-galaxy-s23-ultra-5g-alypuhelin-8256-gb-vihrea.jpg");
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+}
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+  letter-spacing: 4px;
+  background-color: white;
+  opacity: 50%;
+}
+
+.btn{
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  border: 5px solid;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  color: black;
+  background-color: white;
+  transition: .5s;
+}
+
+.active-left .left{
+  width: 75%;
+  transition: 1s;
+}
+
+.active-left .right{
+  width: 25%;
+  transition: 1s;
+}
+
+.active-right .left{
+  width: 25%;
+  transition: 1s;
+}
+
+.active-right .right{
+  width: 75%;
+  transition: 1s;
+}
